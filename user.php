@@ -1,7 +1,7 @@
 ﻿<?php
 
 class User{
-
+	// master revised
 	public function __construct(){
 		
 		
