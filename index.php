@@ -2,6 +2,7 @@
 
 phpinfo();
 
+
 //現在修改index_branch
 /*
 	revise under the branch
@@ -9,5 +10,8 @@ phpinfo();
 
 
 */
+
+//要測試同步的merge
+
 
 ?>
