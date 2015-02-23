@@ -3,7 +3,7 @@
 class User{
 
 	public function __construct(){
-		
+		$test = "從本地上傳第一次";	//	from local to server 
 		
 	}
 	
