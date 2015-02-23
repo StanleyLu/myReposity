@@ -3,8 +3,11 @@
 class User{
 
 	public function __construct(){
+		/*
+			1. new Branch
 		
 		
+		*/		
 	}
 	
 	public function get_user_data($account, $user_id=FALSE){
