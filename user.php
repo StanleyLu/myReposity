@@ -3,8 +3,13 @@
 class User{
 	// master revised
 	public function __construct(){
+		/*
+			1. new Branch
+			
+			2. revise and sync to master
 		
 		
+		*/		
 	}
 	
 	public function get_user_data($account, $user_id=FALSE){
