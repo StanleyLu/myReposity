@@ -5,6 +5,8 @@ class User{
 	public function __construct(){
 		/*
 			1. new Branch
+			
+			2. revise and sync to master
 		
 		
 		*/		
