@@ -3,10 +3,21 @@
 class User{
 
 	public function __construct(){
-		$test = "從local上傳改Utf8";	//	from local to server 
+		
 		
 	}
 	
+	public function get_user_data($account, $user_id=FALSE){
+		if($user_id){
+			$sql_user_data = "SELECT * FROM `jianda_user_administrator` WHERE `admin_id` = ? ";
+			$query_user_data = $this->db->query($sql_user_data, array($user_id));
+			return $query_user_data->result_array();
+		}else{
+			$sql_user_data = "SELECT * FROM `jianda_user_administrator` WHERE `admin_account` LIKE ? ";
+			$query_user_data = $this->db->query($sql_user_data, array($account));
+			return $query_user_data->result_array();
+		}
+	}
 	
 	public function get_user_ip(){
 		if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
