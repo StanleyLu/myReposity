@@ -8,6 +8,7 @@ class User{
 		$l2 = "Local 第二次在Branch修改";
 		$l3 = "Local 第三次在Branch修改，測試同時push的結果";
 		$l4 = "Local 第4次在Branch修改，測試只push到master的結果";
+		$l5 = "Local 第5次在Branch修改，測試merge到master的結果";
 		
 	}
 	
