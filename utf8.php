@@ -6,6 +6,7 @@ class User{
 		$test = "這是UTF8檔";	//	from local to server 
 		$l = "Local 建立Branch Serve不改";
 		$l2 = "Local 第二次在Branch修改";
+		$l3 = "Local 第三次在Branch修改，測試同時push的結果";
 		
 	}
 	
