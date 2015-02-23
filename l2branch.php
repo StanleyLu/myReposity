@@ -8,6 +8,7 @@ class User{
 		$test = "這是L2建立的Branch";	//	測試衝突
 		$test = "這是L2建立的Branch測試合併";	//	測試合併
 		$test = "這是L2測試合併到L1";	//	測試合併
+		$test = "Pull request這次真的合並到master上";	//	測試合併
 		
 	}
 	
