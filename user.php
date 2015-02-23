@@ -1,9 +1,9 @@
-<?php
+ï»¿<?php
 
 class User{
 
 	public function __construct(){
-		$test = "±q¥»¦a¤W¶Ç²Ä¤@¦¸";	//	from local to server 
+		$test = "±qlocal¤W¶Ç§ïUtf8";	//	from local to server 
 		
 	}
 	
