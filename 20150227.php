@@ -2,7 +2,8 @@
 
 phpinfo();
 
-$test = "重新世做git";
+//錯字修改
+$test = "重新試做git";
 
 /*
 
