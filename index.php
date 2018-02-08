@@ -14,4 +14,6 @@ phpinfo();
 //要測試同步的merge
 
 
+echo "windows-1";
+
 ?>
